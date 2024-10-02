@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <img class="header__burger" src="./imgs/burgerMenu.svg" alt="burger menu" />
+                <form class="header__form">
+                    <div class="header__left">
+                        <img class="header__logo logo" src="../imgs/LOGOS.svg" alt="logo" />
+                        <label class="header__form-item">
+                            <img class="header__form-location" src="../imgs/Location.svg" alt="location" />
+                            <input type="text" placeholder="Введите адрес доставки" class="header__form-input" />
+                            <img class="header__form-search" src="../imgs/Search.svg" alt="search" />
+                        </label>
+                    </div>
+                    <a href="#" class="header__link">
+                        <img src="../imgs/Calling.svg" alt="Calling" />
+                        <div class="header__call">
+                            <span>Контакты:</span>
+                            <b> +7 (917) 510-57-59</b>
+                        </div>
+                    </a>
+                </form>
+                <button class="header__btn">
+                    Корзина
+                    <div class="header__line"></div>
+                    <span>4</span>
+                    <img class="header__btn-cart" src="../imgs/Cart.svg" alt="cart" />
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section class="nav">
+            <div class="nav__content">
+                <nav class="nav__list">
+                    <a class="nav__list-item" href="#">
+                        <span>Холодные закуски</span>
+                        <div class="nav__list-line"></div>
+                    </a>
+                    <a class="nav__list-item" href="#">
+                        <span>Горячие закуски</span>
+                        <div class="nav__list-line"></div>
+                    </a>
+                    <a class="nav__list-item" href="#">
+                        <span>Мясные блюда</span>
+                        <div class="nav__list-line"></div>
+                    </a>
+                    <a class="nav__list-item" href="#">
+                        <span>Супы</span>
+                        <div class="nav__list-line"></div>
+                    </a>
+                    <a class="nav__list-item" href="#">
+                        <span>Рыбные блюда</span>
+                        <div class="nav__list-line"></div>
+                    </a>
+                    <a class="nav__list-item" href="#">
+                        <span>Гриль меню</span>
+                        <div class="nav__list-line"></div>
+                    </a>
+                    <a class="nav__list-item" href="#">
+                        <span>Фирменные блюда </span>
+                        <div class="nav__list-line"></div>
+                    </a>
+                    <a class="nav__list-item" href="#">
+                        <span>Напитки</span>
+                        <div class="nav__list-line"></div>
+                    </a>
+                </nav>
+            </div>
+        </section>
+        <section class="card">
+            <div class="container">
+                <div class="card__icon">
+                    <img src="../imgs/navigator.png" alt="navigator">
+                    <h2 class="card__descriptiom">Вернуться назад</h2>
+                </div>
+                <div class="card__content">
+                    <div class="card__left">
+                        <img src="../imgs/baran.png" alt="sheep">
+                    </div>
+                    <div class="card__right">
+                        <h3 class="card__title">
+                            Ягненок
+                        </h3>
+
+                        <div class="card__card__all">
+                            <p class="card__text">
+                                помидор, сыр фета, масло подсолнечное, капуста пекинская,
+                                перец сладкий красный, огурцы, оливки без косточек
+                            </p>
+                        </div>
+
+                        <span>Вес: 210 г</span>
+                        <div class="card__btn">
+                            <button class="card__knops">
+                                Корзина
+
+                                <img src="../imgs/shopping-bag.png" alt="bag">
+                            </button>
+                            <h3 class="card__prace">259 ₽</h3>
+                        </div>
+                        <div class="card__wrap">
+                            <ul class="card__massa">
+                                <li class="card__massa-title">Белки</li>
+                                <li class="card__massa-title">17.23</li>
+
+                            </ul>
+                            <ul class="card__massa">
+                                <li class="card__massa-title">Белки</li>
+                                <li class="card__massa-title">17.23</li>
+
+                            </ul>
+                            <ul class="card__massa">
+                                <li class="card__massa-title">Белки</li>
+                                <li class="card__massa-title">17.23</li>
+
+                            </ul>
+                            <ul class="card__massa">
+                                <li class="card__massa-title">Белки</li>
+                                <li class="card__massa-title">17.23</li>
+
+                            </ul>
+                        </div>
+                        <div class="card__line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cold">
+            <div class="cold__content">
+                <div class="cold__line"></div>
+                <div class="cold__title">
+                    <div class="cold__title-line"></div>
+                    <h2 class="cold__title-item">С ЭТИМ ТОВАРОМ ПОКУПАЮТ</h2>
+                </div>
+                <div class="cold__catalog mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="cold__catalog-card swiper-slide">
+                            <div class="cold__catalog-card-number">3</div>
+                            <img src="../imgs/turkey.png" alt="turkey" class="cold__catalog-card-img" />
+                            <div class="cold__catalog-card-info">
+                                <div class="cold__catalog-card-top">
+                                    <h3 class="cold__catalog-card-title">Индейка</h3>
+                                    <span class="cold__catalog-card-weight">Вес: 225 г</span>
+                                </div>
+                                <p class="cold__catalog-card-description">
+                                    Фаршированный гречневой кашей, курагой, апельсином и зеленым
+                                    яблоком
+                                </p>
+                                <div class="cold__catalog-card-bot">
+                                    <div class="cold__catalog-card-minus">
+                                        <img src="../imgs/minus.svg" alt="minus" />
+                                    </div>
+                                    <b class="cold__catalog-card-price">450 ₽</b>
+                                    <div class="cold__catalog-card-plus">
+                                        <img src="../imgs/plus.svg" alt="plus" />
+                                    </div>
+                                    <button class="cold__catalog-card-btn">
+                                        В корзину
+                                        <img src="../imgs/Cart.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cold__catalog-card swiper-slide">
+                            <div class="cold__catalog-card-number">1</div>
+                            <img src="../imgs/lamb.png" alt="lamb" class="cold__catalog-card-img" />
+                            <div class="cold__catalog-card-info">
+                                <div class="cold__catalog-card-top">
+                                    <h3 class="cold__catalog-card-title">Ягненок</h3>
+                                    <span class="cold__catalog-card-weight">Вес: 225 г</span>
+                                </div>
+                                <p class="cold__catalog-card-description">
+                                    Фаршированный гречневой кашей, курагой, апельсином и зеленым
+                                    яблоком
+                                </p>
+                                <div class="cold__catalog-card-bot">
+                                    <div class="cold__catalog-card-minus">
+                                        <img src="../imgs/minus.svg" alt="minus" />
+                                    </div>
+                                    <b class="cold__catalog-card-price">620 ₽</b>
+                                    <div class="cold__catalog-card-plus">
+                                        <img src="../imgs/plus.svg" alt="plus" />
+                                    </div>
+                                    <button class="cold__catalog-card-btn">
+                                        В корзину
+                                        <img src="../imgs/Cart.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cold__catalog-card swiper-slide">
+                            <div class="cold__catalog-card-number">2</div>
+                            <img src="../imgs/lamb.png" alt="lamb" class="cold__catalog-card-img" />
+                            <div class="cold__catalog-card-info">
+                                <div class="cold__catalog-card-top">
+                                    <h3 class="cold__catalog-card-title">Ягненок</h3>
+                                    <span class="cold__catalog-card-weight">Вес: 225 г</span>
+                                </div>
+                                <p class="cold__catalog-card-description">
+                                    Фаршированный гречневой кашей, курагой, апельсином и зеленым
+                                    яблоком
+                                </p>
+                                <div class="cold__catalog-card-bot">
+                                    <div class="cold__catalog-card-minus">
+                                        <img src="../imgs/minus.svg" alt="minus" />
+                                    </div>
+                                    <b class="cold__catalog-card-price">620 ₽</b>
+                                    <div class="cold__catalog-card-plus">
+                                        <img src="../imgs/plus.svg" alt="plus" />
+                                    </div>
+                                    <button class="cold__catalog-card-btn">
+                                        В корзину
+                                        <img src="../imgs/Cart.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cold__catalog-card swiper-slide">
+                            <div class="cold__catalog-card-number">3</div>
+                            <img src="../imgs/turkey.png" alt="turkey" class="cold__catalog-card-img" />
+                            <div class="cold__catalog-card-info">
+                                <div class="cold__catalog-card-top">
+                                    <h3 class="cold__catalog-card-title">Индейка</h3>
+                                    <span class="cold__catalog-card-weight">Вес: 225 г</span>
+                                </div>
+                                <p class="cold__catalog-card-description">
+                                    Фаршированный гречневой кашей, курагой, апельсином и зеленым
+                                    яблоком
+                                </p>
+                                <div class="cold__catalog-card-bot">
+                                    <div class="cold__catalog-card-minus">
+                                        <img src="../imgs/minus.svg" alt="minus" />
+                                    </div>
+                                    <b class="cold__catalog-card-price">450 ₽</b>
+                                    <div class="cold__catalog-card-plus">
+                                        <img src="../imgs/plus.svg" alt="plus" />
+                                    </div>
+                                    <button class="cold__catalog-card-btn">
+                                        В корзину
+                                        <img src="../imgs/Cart.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cold__catalog-card swiper-slide">
+                            <div class="cold__catalog-card-number">4</div>
+                            <img src="../imgs/goose.png" alt="goose" class="cold__catalog-card-img" />
+                            <div class="cold__catalog-card-info">
+                                <div class="cold__catalog-card-top">
+                                    <h3 class="cold__catalog-card-title">Гусь</h3>
+                                    <span class="cold__catalog-card-weight">Вес: 225 г</span>
+                                </div>
+                                <p class="cold__catalog-card-description cold__catalog-card-description-small">
+                                    Фаршированный яблоками
+                                </p>
+                                <div class="cold__catalog-card-bot">
+                                    <div class="cold__catalog-card-minus">
+                                        <img src="../imgs/minus.svg" alt="minus" />
+                                    </div>
+                                    <b class="cold__catalog-card-price">7 900 ₽</b>
+                                    <div class="cold__catalog-card-plus">
+                                        <img src="../imgs/plus.svg" alt="plus" />
+                                    </div>
+                                    <button class="cold__catalog-card-btn">
+                                        В корзину
+                                        <img src="../imgs/Cart.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cold__catalog-card swiper-slide">
+                            <div class="cold__catalog-card-number">5</div>
+                            <img src="../imgs/duck.png" alt="duck" class="cold__catalog-card-img" />
+                            <div class="cold__catalog-card-info">
+                                <div class="cold__catalog-card-top">
+                                    <h3 class="cold__catalog-card-title">Утка</h3>
+                                    <span class="cold__catalog-card-weight">Вес: 225 г</span>
+                                </div>
+                                <p class="cold__catalog-card-description cold__catalog-card-description-small">
+                                    Фаршированная рисом, курагой и айвой
+                                </p>
+                                <div class="cold__catalog-card-bot">
+                                    <div class="cold__catalog-card-minus">
+                                        <img src="../imgs/minus.svg" alt="minus" />
+                                    </div>
+                                    <b class="cold__catalog-card-price">3 230 ₽</b>
+                                    <div class="cold__catalog-card-plus">
+                                        <img src="../imgs/plus.svg" alt="plus" />
+                                    </div>
+                                    <button class="cold__catalog-card-btn">
+                                        В корзину
+                                        <img src="../imgs/Cart.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cold__catalog-card swiper-slide">
+                            <div class="cold__catalog-card-number">6</div>
+                            <img src="../imgs/duck.png" alt="duck" class="cold__catalog-card-img" />
+                            <div class="cold__catalog-card-info">
+                                <div class="cold__catalog-card-top">
+                                    <h3 class="cold__catalog-card-title">Утка</h3>
+                                    <span class="cold__catalog-card-weight">Вес: 225 г</span>
+                                </div>
+                                <p class="cold__catalog-card-description cold__catalog-card-description-small">
+                                    Фаршированная рисом, курагой и айвой
+                                </p>
+                                <div class="cold__catalog-card-bot">
+                                    <div class="cold__catalog-card-minus">
+                                        <img src="../imgs/minus.svg" alt="minus" />
+                                    </div>
+                                    <b class="cold__catalog-card-price">3 230 ₽</b>
+                                    <div class="cold__catalog-card-plus">
+                                        <img src="../imgs/plus.svg" alt="plus" />
+                                    </div>
+                                    <button class="cold__catalog-card-btn">
+                                        В корзину
+                                        <img src="../imgs/Cart.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cold__catalog-card swiper-slide">
+                            <div class="cold__catalog-card-number">4</div>
+                            <img src="../imgs/goose.png" alt="goose" class="cold__catalog-card-img" />
+                            <div class="cold__catalog-card-info">
+                                <div class="cold__catalog-card-top">
+                                    <h3 class="cold__catalog-card-title">Гусь</h3>
+                                    <span class="cold__catalog-card-weight">Вес: 225 г</span>
+                                </div>
+                                <p class="cold__catalog-card-description cold__catalog-card-description-small">
+                                    Фаршированный яблоками
+                                </p>
+                                <div class="cold__catalog-card-bot">
+                                    <div class="cold__catalog-card-minus">
+                                        <img src="../imgs/minus.svg" alt="minus" />
+                                    </div>
+                                    <b class="cold__catalog-card-price">7 900 ₽</b>
+                                    <div class="cold__catalog-card-plus">
+                                        <img src="../imgs/plus.svg" alt="plus" />
+                                    </div>
+                                    <button class="cold__catalog-card-btn">
+                                        В корзину
+                                        <img src="../imgs/Cart.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <img src="../imgs/footerArrow.svg" class="footer__arrow" alt="arrow" />
+                <div class="footer__info">
+                    <img src="../imgs/LOGOS.svg" alt="LOGOS" class="footer__logo" />
+                    <span class="footer__copyright">© ООО СК «АПШЕРОН» Все права защищены. 2010-2020</span>
+                    <ul class="footer__info-list">
+                        <li class="footer__info-list-item">
+                            Пользовательское соглашение
+                        </li>
+                        <li class="footer__info-list-item">Карта сайта</li>
+                        <li class="footer__info-list-item">
+                            Политика конфиденциальности
+                        </li>
+                    </ul>
+                </div>
+                <ul class="footer__links-list">
+                    <li class="footer__links-list-item">О ресторане</li>
+                    <li class="footer__links-list-item">Условия доставки</li>
+                    <li class="footer__links-list-item">Возврат товара</li>
+                    <li class="footer__links-list-item">Акции</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/swiper.js"></script>
+</body>
+
+</html>

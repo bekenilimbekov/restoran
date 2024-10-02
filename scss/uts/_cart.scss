@@ -1,0 +1,46 @@
+.cart {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 33%;
+
+    &__content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #494544 0%, #504b4a 100%);
+    }
+
+    &__close {
+        cursor: pointer;
+        display: flex;
+        justify-content: end;
+    }
+
+    &__info {
+        padding: 6px 55px 43px 82px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            font-family: "Gilroy-Bold";
+            font-weight: 700;
+            font-size: 30px;
+            color: #fff;
+            margin: 14px 0px 43px 0px;
+        }
+
+        &-btn {
+            border-radius: 10px;
+            background: linear-gradient(133deg, #618967 0%, #72a479 100%);
+            padding: 17px 34px 17px 35px;
+            border: 0;
+            font-family: "Gilroy-Bold";
+            font-weight: 700;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+}

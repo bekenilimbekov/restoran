@@ -1,0 +1,43 @@
+.call {
+    display: flex;
+    justify-content: flex-start;
+
+    &__utl{
+        display: flex;
+        justify-content: flex-start;
+       
+    }
+    &__food{
+        background: linear-gradient(90deg, #494544 0%, #504b4a 100%);
+        display: flex;
+        justify-content: center;
+
+        &-title{
+            
+        }
+    }
+
+    span {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    &__direction {
+        border-left: 1px solid #618967;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        text-transform: uppercase;
+        color: #fff;
+
+        &-tell {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 15px;
+            text-transform: lowercase;
+            color: #72a479;
+        }
+    }
+}

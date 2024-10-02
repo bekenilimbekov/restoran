@@ -1,0 +1,159 @@
+.card {
+    &__content {
+        display: flex;
+        justify-content: center;
+        margin-top: 27px;
+
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        align-items: center;
+        margin-top: 44px;
+        margin-left: 116px;
+    }
+
+    &__descriptiom {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+
+    }
+
+
+    &__right {
+        background: linear-gradient(90deg, #494544 0%, #504b4a 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    &__title {
+        font-family: "Gilroy";
+        font-weight: 700;
+        font-size: 25px;
+        color: #fff;
+        margin-top: 38px;
+        margin-left: 50px;
+    }
+
+    &__title:hover {
+
+        color: red;
+    }
+
+    &__text {
+        font-family: "Gilroy";
+        font-weight: 400;
+        font-size: 14px;
+        color: #cfcfcf;
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+
+    span {
+        font-family: "Gilroy";
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 113px;
+        margin-left: 50px;
+    }
+
+    &__prace {
+        font-family: "Gilroy";
+        font-weight: 700;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 25px;
+        margin-top: 22px;
+        margin-left: 50px;
+
+    }
+
+    &__btn-class {
+        padding: 15px 16px 9px 20px;
+        font-family: var;
+        font-weight: 600;
+        font-size: 14px;
+        color: #fff;
+        background: linear-gradient(133deg, #618967 0%, #72a479 100%);
+        border-radius: 10%;
+        align-items: center;
+        justify-content: center;
+        border: none;
+
+    }
+
+    &__line {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-left: 20px;
+    }
+
+    &__small-line {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        width: 0px;
+        height: 32px;
+    }
+
+    &__knops {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: linear-gradient(133deg, #618967 0%, #10741d 100%);
+        border: none;
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 12px;
+        color: #fff;
+        padding: 9px 15px 9px 20px;
+        border-radius: 10px;
+
+        img {
+            border-left: 1px solid #fff;
+            padding-left: 15px;
+        }
+    }
+
+    &__massa {
+        display: flex;
+        flex-direction: column;
+
+        row-gap: 10px;
+    }
+
+    &__wrap {margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__light {
+        display: flex;
+        gap: 50px;
+        margin-left: 50px;
+
+        &-title {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 12px;
+            color: #fff;
+        }
+    }
+
+    &__card__all {
+        max-width: 411px;
+        max-height: 35px;
+    }
+
+}
